@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="tracing_test" pkg="tracing_test" type="tracing_test.py" output="screen">
+	  <param name="timeout_duration" value="3"/>
+	  <param name="text_color" value="white"/>
+    <!--remap from="/keyboard" to="/joy_vel"/-->
+    <!-- <remap from="/arduino/joystick" to="/keyboard"/> -->
+  </node>
+</launch>

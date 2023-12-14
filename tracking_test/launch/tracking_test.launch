@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="tracking_test" pkg="tracking_test" type="tracking_test.py" output="screen">
+    <remap from="/keyboard" to="/joy_vel"/>
+  </node>
+</launch>
